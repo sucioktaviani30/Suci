@@ -1,0 +1,122 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+nav {
+  position: fixed;
+  width: 100%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: aquamarine;
+    display: flex;
+    font-size: 24px;
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid #e4d0e6;
+  }
+  .sejarah {
+    background-color: aquamarine;
+  }
+  .visi {
+    background-color: white;
+  }
+  .curriculum {
+    background-color: #eb8b8b;
+    margin-top: 100px;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 10px;
+    text-decoration: none;
+  }
+  
+  
+.main-content {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    /* margin-top: 100px; */
+}
+.intro, .image {
+  margin-top: 100px;
+}
+.info{
+    flex:50%;
+    justify-content: space-between;
+}
+.Kurikulum{
+  background-color: aquamarine;
+}
+.pengajar{
+  flex: container;
+  /* display: flex; */
+  flex-wrap: nowrap;
+  background-color: white;
+}
+.foto1{
+  justify-content: center;
+  
+  
+}
+.bloka{
+  display: flex;
+  margin-inline-start: 100px;
+  gap: 70px;
+  align-items: center;
+  margin: 10px;
+  padding-bottom: 10px;
+}
+.blokb{
+  display: flex;
+  margin-inline-start: 100px;
+  gap: 70px;
+  align-items: center;
+  margin: 10px;
+  padding-bottom: 10px;
+}
+.blokc{
+  display: flex;
+  margin-inline-start: 100px;
+  gap:70px;
+  padding-bottom: 10px;
+  margin: 10px;
+}
+.blokd{
+  display: flex;
+  margin-inline-start: 100px;
+  gap: 70px;
+  padding-bottom: 10px;
+  margin: 10px;
+}
+.bloke{
+  display: flex;
+  margin-inline-start: 100px;
+  gap: 70px;
+  padding-bottom: 10px;
+
+}
+.fasilitas{
+  width: 100px;
+  text-align: center;
+  background-color: aquamarine;
+  height: auto;
+}
+.follow li a {
+  float: right;
+  margin-top: 20px;
+}
+.follow li img {
+  float: left;
+}
+.follow ul {
+  display: flex;
+}
